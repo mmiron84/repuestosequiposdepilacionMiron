@@ -1,7 +1,8 @@
-import './NavBar.css'
-import logo from './logi.jpg'
+import './navBar.css'
+import logo from '../imagenes/logi.jpg'
+import CartWidget from '../CartWidget/CartWidget'
 
-function NavBar() {
+function navBar() {
     return(
     <header className="App-encabezado">
         <img className='logo'src={logo} alt={'logoful'}width={'300px'}></img>
@@ -11,15 +12,10 @@ function NavBar() {
             <li><a href="servicios.html">Servicios</a> </li>
             <li><a href="productos.html">Productos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
-        </ul>        
-    </header>  
+        </ul>
+        <CartWidget/>  
+    </header> 
+ 
     )
-    
 }
-    export default NavBar
-
-
-
-
-
-
+    export default navBar
