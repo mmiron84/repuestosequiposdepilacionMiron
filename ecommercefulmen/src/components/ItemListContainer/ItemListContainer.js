@@ -1,8 +1,24 @@
+import ItemCount from '../ItemCount'
 
-const ItemListContainer = ({greeting = 'saludo'}) => {
+
+
+import React from 'react'
+
+function ItemListContainer() {
   return (
-    <div>{greeting}</div>
+    <div className="Itemcount">
+      <ItemCount stock={5} initial={1} onAdd={(cantidad)=>console.log(`${cantidad} cantidad de productos`) }/>
+    </div>
+    
   )
 }
 
 export default ItemListContainer
+
+
+
+
+
+
+
+
