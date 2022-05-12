@@ -1,14 +1,13 @@
 // import logo from './logo.svg';
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ItemCount from './components/ItemCount';
+// import ItemCount from './components/ItemCount';
 import './components/navBar/navBar.css'
 import NavBar from './components/navBar/navBar.js';
 
-
 function App() {
-  const [count, setcount] = useState(0) 
+  // const [count, setcount] = useState(0) 
   
 
 

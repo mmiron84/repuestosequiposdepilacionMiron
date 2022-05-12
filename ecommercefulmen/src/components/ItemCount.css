@@ -1,24 +1,25 @@
 .mas{
-    margin-left: 1rem;
+   
     width: 50px;
     height: 30px;
 
 }
 .itemCount{
-    width: 30rem;
+    width: 20rem;
     height: 10rem;
-    background-color: blue;
-    margin-left: 30%;
+    background-color:none;
+    margin-top: 5rem;
+    
 }
 
 
 .menos{
-    margin-right: 1rem;
+    
     width: 50px;
     height: 30px;
 }
 .agregar{
-    margin:11px;
+  
     width: 80px;
     height: 30px;
 }
